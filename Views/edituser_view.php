@@ -8,12 +8,18 @@
 <main class="flex-shrink-0">
   <div class="container">
     <h1 class="mt-5">Editing User Details</h1>
+
+    <?php if(isset($errors)): ?>
+        <div class="alert alert-danger" role="alert">
+            <?= $errors->listErrors() ?>
+        </div>
+        <?php endif ?> 
     
     <form method="post" action="<?= site_url('users/edit/' . $user->id) ?>">
             <div class="row form-group mb-2">
                 <label for="username" class="col-form-label col-4">User Name</label>
                 <div class="col-8">
-                    <input type="text" name="username" id="username" class="form-control"value="<?= $user->username ?>" >
+                    <input type="text" name="username" id="username" class="form-control" value="<?= $user->username ?>" >
                 </div>
             </div>
             <div class="row form-group mb-2">

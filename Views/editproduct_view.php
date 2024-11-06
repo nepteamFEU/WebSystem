@@ -1,4 +1,4 @@
-<!-- Load the mainlayout file -->
+    <!-- Load the mainlayout file -->
 <?= $this->extend('layouts/mainlayout') ?>
 
 <!-- Specify the section to be loaded to the layout -->
@@ -8,6 +8,12 @@
 <main class="flex-shrink-0">
   <div class="container">
     <h1 class="mt-5">Editing Product Details</h1>
+
+    <?php if(isset($errors)): ?>
+        <div class="alert alert-danger" role="alert">
+            <?= $errors->listErrors() ?>
+        </div>
+        <?php endif ?> 
     
     <form method="post" action="<?= site_url('products/edit/' . $product->ProductID) ?>">
             <div class="row form-group mb-2">

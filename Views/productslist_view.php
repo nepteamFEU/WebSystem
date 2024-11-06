@@ -9,7 +9,7 @@
   <div class="container">
     <h1 class="mt-5">Products</h1>
     
-    <table class="table table-striped table-hover">
+    <table id="table1" class="table table-striped table-hover">
       <thead>
         <tr>
           <th>Product Name</th>

@@ -10,11 +10,11 @@
     <h1 class="mt-5">Add User</h1>
 
       <!-- Show validation errors -->
-      <?php if(isset($errors)): ?>
+        <?php if(isset($errors)): ?>
         <div class="alert alert-danger" role="alert">
             <?= $errors->listErrors() ?>
         </div>
-    <?php endif ?>
+        <?php endif ?>
 
     
     <form action="<?= base_url().'users/add' ?>" method="post">

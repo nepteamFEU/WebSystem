@@ -17,7 +17,7 @@
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/scroller/2.4.3/js/dataTables.scroller.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/scroller/2.4.3/js/scroller.jqueryui.js"></script>
 
-    <title><?= $title; ?></title>
+    <title></title>
 
 
     <style>

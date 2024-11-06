@@ -7,7 +7,13 @@
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
+    <h1 class="mt-5">Add Product </h1>
+
+    <?php if(isset($errors)): ?>
+        <div class="alert alert-danger" role="alert">
+            <?= $errors->listErrors() ?>
+        </div>
+        <?php endif ?>
     
     <form action="<?= base_url().'products/add' ?>" method="post">
             <div class="row form-group mb-2">
