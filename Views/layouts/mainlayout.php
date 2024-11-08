@@ -44,7 +44,8 @@
     <link href="sticky-footer-navbar.css" rel="stylesheet">
   </head>
   <body class="d-flex flex-column h-100">
-    
+
+<?php if(session()->get('islogged')): ?>
 <header>
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -63,12 +64,13 @@
           </li>
         </ul>
         <form class="d-flex">
-
+        <a href="<?= base_url('users') ?>" class="btn btn-outline-light">Logout</a>
         </form>
       </div>
     </div>
   </nav>
 </header>
+<?php endif ?>
 
 <!--to call-->
 <?= $this->renderSection('content') ?>

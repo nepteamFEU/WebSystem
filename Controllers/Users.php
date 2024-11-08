@@ -3,8 +3,14 @@ namespace App\Controllers;
 
 class Users extends BaseController{
 
-    public function index()
+    public function index(){
+        helper(['form']);
+        if(!session()->get('islogged'))
         {
+            $data['title'] = 'Log in';
+            $data['page_title'] = 'Log in';
+            return view('login', $data);
+        }
         $data['page_title'] = 'Viewing Users List';
         $data['title'] = 'Viewing Users List'; 
         $user_model = new \App\Models\Users_model();
@@ -14,7 +20,42 @@ class Users extends BaseController{
 
     public function login()
     {
-        return view('login_view');
+        if(session()->get('islogged'))
+        {
+            return redirect()->to('users/index');
+        }
+        $data['title'] = 'Log in';
+        $data['page_title'] = 'Log in';
+        $user_model = new \App\Models\Users_model();
+        helper('form');
+
+        if($this->request->is('post'))
+        {
+            $login_data = $this->request->getPost(['username','password']);
+            $user = $user_model->where('username',$login_data['username'])
+                ->where('password', $login_data['password'])
+                ->first();
+            if(!$user)
+            {
+                session()->setFlashdata('nouser','Username and/or password is incorrect');
+                return view('login',$data);
+            }
+            else
+            {
+                $data = [
+                    'id'=> $user->id,
+                    'fullname' => $user->fullname,
+                    'islogged' => true
+                ];
+                session()->set($data);
+                return redirect()->to('users/index');
+            }
+        }
+    }
+    public function logout()
+    {
+        session()->destroy();
+        return redirect()->to(base_url('users'));
     }
     public function add(){
     $data['title'] = 'Add New User';
