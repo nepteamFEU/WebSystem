@@ -18,7 +18,7 @@ class Users extends BaseController{
         return view('masterlist_view', $data); 
         }
 
-    public function login()
+    /* public function login() 
     {
         if(session()->get('islogged'))
         {
@@ -26,7 +26,7 @@ class Users extends BaseController{
         }
         $data['title'] = 'Log in';
         $data['page_title'] = 'Log in';
-        $user_model = new \App\Models\Users_model();
+        $user_model = new \App\Models\PNK_model();
         helper('form');
 
         if($this->request->is('post'))
@@ -57,7 +57,9 @@ class Users extends BaseController{
         session()->destroy();
         return redirect()->to(base_url('users'));
     }
-    public function add(){
+    */
+    public function add()
+    {
     $data['title'] = 'Add New Record';
     $data['page_title'] = 'Add New Record';
     helper('form');
@@ -88,7 +90,7 @@ class Users extends BaseController{
             }
         }
     return view('addbata_view', $data);
-}
+    }
 
     public function edit($id){
         $data['title'] = 'Edit Record';

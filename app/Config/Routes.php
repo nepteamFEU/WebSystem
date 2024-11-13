@@ -41,3 +41,11 @@ $routes->get('products/view/(:num)', 'Products::view/$1'); // View a specific pr
 $routes->get('products/edit/(:num)', 'Products::edit/$1'); // Show the form to edit a specific product
 $routes->post('products/edit/(:num)', 'Products::edit/$1'); // Handle the form submission for editing a product
 $routes->get('products/delete/(:num)', 'Products::delete/$1'); // Handle the deletion of a specific product
+
+$routes->get('pnk/index','PNK::index');
+$routes->get('pnk','PNK::index');
+$routes->get('pnk/add','PNK::add' );
+$routes->post('pnk/add','PNK::add' );
+$routes->get('pnk/edit/(:num)','PNK::edit/$1');
+$routes->post('pnk/edit/(:num)','PNK::edit/$1');
+$routes->get('pnk/delete/(:num)', 'PNK::delete/$1');    

@@ -40,7 +40,7 @@
   </table>
   
   <a href="<?= base_url().'users/add' ?>" class="btn btn-primary" role="button">Register New User</a>
-
+  <a href="<?= base_url().'users/logout' ?>" class=" btn btn-danger btn-sm" role = "button"> Logout </a>
   </div>
 </main>
 
