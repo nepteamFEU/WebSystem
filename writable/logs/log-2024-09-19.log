@@ -1,0 +1,67 @@
+CRITICAL - 2024-09-19 13:21:28 --> ErrorException: Undefined variable $var1
+[Method: GET, Route: users/test]
+in APPPATH\Controllers\Users.php on line 15.
+ 1 APPPATH\Controllers\Users.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $var1', 'C:\\xampp\\htdocs\\sample_view\\app\\Controllers\\Users.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->test()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-19 13:59:06 --> ErrorException: Undefined variable $title
+[Method: GET, Route: users]
+in APPPATH\Views\layouts\mainlayout.php on line 10.
+ 1 APPPATH\Views\layouts\mainlayout.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 6 APPPATH\Controllers\Users.php(11): view('userslist_view')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-19 14:17:12 --> ErrorException: Undefined variable $user
+[Method: GET, Route: users]
+in APPPATH\Views\userslist_view.php on line 25.
+ 1 APPPATH\Views\userslist_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 5 APPPATH\Controllers\Users.php(22): view('userslist_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-19 14:29:23 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: users]
+in APPPATH\Views\userslist_view.php on line 25.
+ 1 APPPATH\Views\userslist_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 5 APPPATH\Controllers\Users.php(22): view('userslist_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-19 14:32:19 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: users]
+in APPPATH\Views\userslist_view.php on line 25.
+ 1 APPPATH\Views\userslist_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 5 APPPATH\Controllers\Users.php(22): view('userslist_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

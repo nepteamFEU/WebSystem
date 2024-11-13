@@ -1,0 +1,103 @@
+CRITICAL - 2024-09-20 00:13:43 --> ErrorException: Undefined variable $title
+[Method: GET, Route: users]
+in APPPATH\Views\layouts\mainlayout.php on line 11.
+ 1 APPPATH\Views\layouts\mainlayout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 6 APPPATH\Controllers\Users.php(21): view('userslist_view')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-20 00:14:00 --> ErrorException: Undefined variable $title
+[Method: GET, Route: users]
+in APPPATH\Views\layouts\mainlayout.php on line 11.
+ 1 APPPATH\Views\layouts\mainlayout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 6 APPPATH\Controllers\Users.php(21): view('userslist_view')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-20 00:14:33 --> ErrorException: Undefined variable $title
+[Method: GET, Route: users]
+in APPPATH\Views\layouts\mainlayout.php on line 11.
+ 1 APPPATH\Views\layouts\mainlayout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 6 APPPATH\Controllers\Users.php(21): view('userslist_view')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-20 00:15:06 --> ErrorException: Undefined variable $title
+[Method: GET, Route: users]
+in APPPATH\Views\layouts\mainlayout.php on line 11.
+ 1 APPPATH\Views\layouts\mainlayout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 6 APPPATH\Controllers\Users.php(21): view('userslist_view')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-20 00:15:44 --> ErrorException: Undefined variable $title
+[Method: GET, Route: users]
+in APPPATH\Views\layouts\mainlayout.php on line 11.
+ 1 APPPATH\Views\layouts\mainlayout.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\layouts\\mainlayout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 6 APPPATH\Controllers\Users.php(21): view('userslist_view')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-20 00:18:08 --> ErrorException: Undefined variable $users
+[Method: GET, Route: users]
+in APPPATH\Views\userslist_view.php on line 25.
+ 1 APPPATH\Views\userslist_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 5 APPPATH\Controllers\Users.php(21): view('userslist_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-20 00:28:03 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: users]
+in APPPATH\Views\userslist_view.php on line 25.
+ 1 APPPATH\Views\userslist_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\sample_view\\app\\Views\\userslist_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('userslist_view', [], true)
+ 5 APPPATH\Controllers\Users.php(22): view('userslist_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
